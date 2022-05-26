@@ -1,0 +1,8 @@
+update ip2location_db1 set country_name = 'Congo' where country_name = 'Congo, The Democratic Republic of The';
+update ip2location_db1 set country_name = 'Iran' where country_name = 'Iran, Islamic Republic of';
+update ip2location_db1 set country_name = 'Russia' where country_name = 'Russian Federation';
+update ip2location_db1 set country_name = 'Moldova' where country_name = 'Moldova, Republic of';
+update ip2location_db1 set country_name = 'Virgin Islands' where country_name = 'Virgin Islands, British';
+update ip2location_db1 set country_name = 'Macedonia' where country_name = 'Macedonia, The Former Yugoslav Republic of';
+update ip2location_db1 set country_name = 'Korea' where country_name = 'Korea, Republic of';
+update ip2location_db1 set country_name = 'Taiwan' where country_name = 'Taiwan, Province of China';

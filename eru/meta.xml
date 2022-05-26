@@ -1,0 +1,234 @@
+<meta>
+	<min_mta_version client="1.5.6" server="1.5.6" />
+	<!-- SERVER SCRIPTS -->
+	<script src="s_core.lua" type="server" />
+	<script src="s_mapmanager.lua" type="server" />
+	
+	<script src="scripts/core/server/s_stats.lua" type="server" />
+	<script src="scripts/core/server/s_id.lua" type="server" />
+	<script src="scripts/core/server/s_toptimes.lua" type="server" />
+	<script src="scripts/core/server/s_mapstats.lua" type="server" />
+	<script src="scripts/core/server/s_radio.lua" type="server" />
+	<script src="scripts/core/server/s_tune.lua" type="server" />
+	<script src="scripts/core/server/s_chat.lua" type="server" />
+	<script src="scripts/core/server/s_cmds.lua" type="server" />
+	<script src="scripts/core/server/s_clans.lua" type="server" />
+	<script src="scripts/core/server/s_admin.lua" type="server" />
+	<script src="scripts/core/server/s_lottery.lua" type="server" />
+	<script src="scripts/core/server/s_ip2location.lua" type="server" />
+	
+	<script src="scripts/race/s_checkpoints.lua" type="server" />
+	<script src="scripts/training/s_training.lua" type="server" />
+	<script src="scripts/shooter/s_shooter.lua" type="server" />
+	<script src="scripts/oj/s_oj.lua" type="server" />
+	<script src="scripts/dd/s_derby.lua" type="server" />
+	<script src="scripts/trials/s_trials.lua" type="server" />
+	<!-- CLIENT SCRIPTS -->
+	<script src="scripts/core/client/c_fonts.lua" type="client" cache="false"/>
+	
+	<script src="c_core.lua" type="client" cache="false"/>
+	
+	<script src="scripts/core/client/c_lobby.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_scoreboard.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_deathlist.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_notifications.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_chat.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_join.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_rewind.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_windows.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_win.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_login.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_toptimes.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_settings.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_panel.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_dxlib.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_misc.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_radio.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_dvo.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_picker.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_tunning.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_antiafk.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_streamer.lua" type="client" cache="false"/>
+	<script src="scripts/core/client/c_spectate.lua" type="client" cache="false"/>
+	
+	<script src="scripts/race/c_checkpoints.lua" type="client" cache="false"/>
+	<script src="scripts/training/c_training_gui.lua" type="client" cache="false"/>
+	<script src="scripts/shooter/c_shooter.lua" type="client" cache="false"/>
+	<script src="scripts/oj/c_oj.lua" type="client" cache="false"/>
+	<script src="scripts/trials/c_trials.lua" type="client" cache="false"/>
+	
+	<script src="files/shaders/blur/c_blur.lua" type="client" cache="false"/>
+	<script src="files/shaders/water/c_water.lua" type="client" cache="false"/>
+	<script src="files/shaders/bloom/c_switch.lua" type="client" cache="false"/>
+	<script src="files/shaders/bloom/c_rtpool.lua" type="client" cache="false"/>
+	<script src="files/shaders/bloom/c_bloom.lua" type="client" cache="false"/>
+	<script src="files/shaders/contrast/c_switch.lua" type="client" cache="false"/>
+	<script src="files/shaders/contrast/c_rtpool.lua" type="client" cache="false"/>
+	<script src="files/shaders/contrast/c_contrast.lua" type="client" cache="false"/>
+	<script src="files/shaders/blackwhite/c_blackwhite.lua" type="client" cache="false"/>
+	<!-- FILES FOR CLIENT -->
+	<!-- SHADERS -->
+	<file src="files/shaders/blur/blur.fx" />
+	<!-- FONTS -->
+	<file src="files/fonts/roboto.ttf" />
+	<file src="files/fonts/roboto-bold.ttf" />
+	<file src="files/fonts/roboto-medium.ttf" />
+	<file src="files/fonts/segoeui-medium.ttf" />
+	<!-- MODELS -->
+	<file src="files/models/nitro.dff" />
+	<file src="files/models/nitro.txd" />
+	<file src="files/models/repair.dff" />
+	<file src="files/models/repair.txd" />
+	<file src="files/models/vehiclechange.dff" />
+	<file src="files/models/vehiclechange.txd" />
+	<!-- IMAGES -->
+	<file src="files/img/lobby/dm.png" />
+	<file src="files/img/lobby/race.png" />
+	<file src="files/img/lobby/olddm.png" />
+	<file src="files/img/lobby/shooter.png" />
+	<file src="files/img/lobby/oj.png" />
+	<file src="files/img/lobby/training.png" />
+	<file src="files/img/lobby/freeroam.png" />
+	<file src="files/img/lobby/lay.png" />
+	
+	<file src="files/img/misc/chat.png" />
+	<file src="files/img/misc/logo.png" />
+	<file src="files/img/misc/noicon.png" />
+	<file src="files/img/misc/6px.png" />
+	<file src="files/img/misc/12px.png" />
+	<file src="files/img/misc/notifications.png" />
+	
+	<file src="files/img/joinquit/join.png" />  
+	<file src="files/img/joinquit/quit.png" />  
+	
+	<file src="files/img/race/map.png" />
+	<file src="files/img/race/next.png" /> 
+	<file src="files/img/race/rectangle.png" /> 
+	<file src="files/img/race/border.png" /> 
+	<file src="files/img/race/mapbackground.png" /> 
+	<file src="files/img/race/timeleft.png" /> 
+	<file src="files/img/race/countdown/1.png" />
+	<file src="files/img/race/countdown/2.png" />
+	<file src="files/img/race/countdown/3.png" />
+	<file src="files/img/race/countdown/0.png" />
+	
+	<file src="files/img/killmsg/boom.png" />
+	<file src="files/img/killmsg/dead.png" />
+	
+	<file src="files/img/browser/refresh.png" />
+	<file src="files/img/browser/gg.png" />
+	<file src="files/img/browser/yt.png" />
+	
+	<file src="files/img/colorpicker/cursor.png" type="client" />
+	<file src="files/img/colorpicker/h.png" type="client" />
+	<file src="files/img/colorpicker/sv.png" type="client" />
+	
+	<file src="files/img/radar/circle_mask.png" />
+	<file src="files/img/radar/radar.jpg" />
+	<file src="files/img/radar/blip.png" />
+	<file src="files/img/radar/blipdown.png" />  
+	<file src="files/img/radar/blipup.png" />  
+	<file src="files/img/radar/local.png" />  
+	<file src="files/img/radar/background.png" />  
+	
+	<file src="files/img/neon/1.png" />
+	<file src="files/img/neon/2.png" />
+	<file src="files/img/neon/3.png" />
+	<file src="files/img/neon/4.png" />
+	<file src="files/img/neon/5.png" />
+	<file src="files/img/neon/6.png" />
+	<file src="files/img/neon/7.png" />
+	<file src="files/img/neon/8.png" />
+	<file src="files/img/neon/9.png" />
+	<file src="files/shaders/neon/default.fx" />
+	<!-- SOUNDS -->
+	<file src="files/sounds/notif.ogg" />	
+	<!-- RADAR -->
+	<file src="files/shaders/radar/hud_mask.fx" /> 
+	<!-- SKYBOX -->
+	<file src="files/shaders/skybox/skybox_model.dff" /> 
+	<file src="files/shaders/skybox/skybox_model.txd" />
+	<file src="files/shaders/skybox/skybox.dds" />
+	<file src="files/shaders/skybox/shader_skybox.fx" />
+	<file src="files/shaders/skybox/mta-helper.fx" />
+	<!-- WATER -->
+	<file src="files/shaders/water/water.fx" />
+	<file src="files/shaders/water/mta-helper.fx" />
+	<file src="files/shaders/water/images/smallnoise3d.dds" />
+	<file src="files/shaders/water/images/cube_env256.dds" /> 
+	<!-- BLOOM -->
+	<file src="files/shaders/bloom/fx/addBlend.fx" /> 
+	<file src="files/shaders/bloom/fx/blurH.fx" /> 
+	<file src="files/shaders/bloom/fx/blurV.fx" /> 
+	<file src="files/shaders/bloom/fx/brightPass.fx" /> 
+	<file src="files/shaders/bloom/fx/mta-helper.fx" /> 
+	<!-- CONTRAST -->
+	<file src="files/shaders/contrast/images/vignette1.dds" /> 
+	<file src="files/shaders/contrast/fx/bloom_combine.fx" /> 
+	<file src="files/shaders/contrast/fx/bloom_extract.fx" /> 
+	<file src="files/shaders/contrast/fx/blurH.fx" /> 
+	<file src="files/shaders/contrast/fx/blurV.fx" /> 
+	<file src="files/shaders/contrast/fx/contrast.fx" /> 
+	<file src="files/shaders/contrast/fx/modulation.fx" /> 
+	<file src="files/shaders/contrast/fx/mta-helper.fx" />
+	<!-- SKIDMARKS -->
+	<file src="files/shaders/skidmarks/mta-helper.fx" />
+	<file src="files/shaders/skidmarks/skidmarks.fx" />
+	<!-- BLACK & WHITE -->
+	<file src="files/shaders/blackwhite/blackwhite.fx"/>
+	<!-- SHADER DVO -->
+	<file src="files/shaders/dvo/blobs.fx" type="client" />	
+	<file src="files/shaders/dvo/blobsMod.fx" type="client" />	
+	<file src="files/shaders/dvo/colCircle.fx" type="client" />	
+	<file src="files/shaders/dvo/colDonut.fx" type="client" />	
+	<file src="files/shaders/dvo/colFractals.fx" type="client" />	
+	<file src="files/shaders/dvo/colNeckl.fx" type="client" />	
+	<file src="files/shaders/dvo/colorDrops.fx" type="client" />	
+	<file src="files/shaders/dvo/coolWaves.fx" type="client" />	
+	<file src="files/shaders/dvo/energyField.fx" type="client" />	
+	<file src="files/shaders/dvo/grayWaves.fx" type="client" />	
+	<file src="files/shaders/dvo/greenCircle.fx" type="client" />	
+	<file src="files/shaders/dvo/gridWalk.fx" type="client" />	
+	<file src="files/shaders/dvo/hypnoCircles.fx" type="client" />	
+	<file src="files/shaders/dvo/hypnoWheel.fx" type="client" />	
+	<file src="files/shaders/dvo/merryXMass.fx" type="client" />	
+	<file src="files/shaders/dvo/noise.fx" type="client" />	
+	<file src="files/shaders/dvo/purpleSine.fx" type="client" />	
+	<file src="files/shaders/dvo/redFlower.fx" type="client" />	
+	<file src="files/shaders/dvo/redPlanet.fx" type="client" />	
+	<file src="files/shaders/dvo/sineColors.fx" type="client" />	
+	<file src="files/shaders/dvo/sineWeb.fx" type="client" />	
+	<file src="files/shaders/dvo/spin.fx" type="client" />	
+	<file src="files/shaders/dvo/spinNeckl.fx" type="client" />	
+	<file src="files/shaders/dvo/tunnel.fx" type="client" />	
+	<file src="files/shaders/dvo/verticalStrobes.fx" type="client" />	
+	<file src="files/shaders/dvo/violetExplosion.fx" type="client" />	
+	<file src="files/shaders/dvo/warpedSiveWave.fx" type="client" />	
+	<file src="files/shaders/dvo/weirdFlower.fx" type="client" />	
+	<file src="files/shaders/dvo/whiteCircles.fx" type="client" />
+	<file src="files/shaders/dvo/nitro.fx" type="client" />
+	<file src="files/shaders/dvo/blob.fx" type="client" />
+	<file src="files/shaders/dvo/mta-helper.fx" type="client" />
+	<!-- WHEELS -->
+	<file src="files/wheels/wheel_or1.dff" />
+    <file src="files/wheels/wheel_gn1.dff" />
+    <file src="files/wheels/wheel_gn2.dff" />
+    <file src="files/wheels/wheel_gn3.dff" />
+    <file src="files/wheels/wheel_gn4.dff" />
+    <file src="files/wheels/wheel_gn5.dff" />
+    <file src="files/wheels/wheel_lr1.dff" />
+    <file src="files/wheels/wheel_lr2.dff" />
+    <file src="files/wheels/wheel_lr3.dff" />
+    <file src="files/wheels/wheel_lr4.dff" />
+    <file src="files/wheels/wheel_lr5.dff" />
+    <file src="files/wheels/wheel_sr1.dff" />
+    <file src="files/wheels/wheel_sr2.dff" />
+    <file src="files/wheels/wheel_sr3.dff" />
+    <file src="files/wheels/wheel_sr4.dff" />
+    <file src="files/wheels/wheel_sr5.dff" />
+    <file src="files/wheels/wheel_sr6.dff" />
+    <file src="files/wheels/J2_wheels.txd" />
+	
+	<file src="files/infernus/mod.txd" />
+	<file src="files/infernus/mod.dff" />
+</meta>
