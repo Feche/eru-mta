@@ -1,0 +1,15 @@
+<meta>
+	<min_mta_version client="1.5.6" server="1.5.6" />
+	<!-- SERVER SCRIPTS -->
+	<script src="s_scriptloader.lua" type="server"/>
+	<!-- CLIENT SCRIPTS -->
+	<script src="c_scriptloader_functions.lua" type="client" cache="false"/>
+	<script src="c_scriptloader.lua" type="client" cache="false"/>
+	<script src="c_sandbox.lua" type="client" cache="false"/>
+	<!-- EXPORTED FUNCTIONS -->
+	<export function="checkClientFiles" type="client" />
+	<export function="loadClientScripts" type="client" />
+	<export function="unloadClientScripts" type="client" />
+	<!-- FILES -->
+	<file src="img/12px.png" />
+</meta>
